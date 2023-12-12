@@ -27,7 +27,7 @@ public class PracticeFormTest extends BaseTest {
         helpers.Attach.addVideo();
     }
     @Test
-    @Tag("REGRESSION")
+    @Tag("SMOKE")
     @DisplayName("Отправка веб-форма со всеми полями заполеннными валидными значениями")
     @Description("Автотест")
     @Link("https://qa.ru")
@@ -53,7 +53,7 @@ public class PracticeFormTest extends BaseTest {
         });
     }
     @Test
-    @Tag("REGRESSION")
+    @Tag("WEB")
     @DisplayName("Отправка веб-форма с заполеннными обязательными полями валидными значениями")
     public void onlyRequiredFieldsAreFilledInTest(){
         step("Заполнение и отправка веб-формы с валидными значениями", () -> {
