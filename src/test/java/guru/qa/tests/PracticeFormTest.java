@@ -57,10 +57,7 @@ public class PracticeFormTest extends BaseTest {
         });
     }
     @Test
-    @Tags({
-            @Tag("WEB"),
-            @Tag("REGRESSION")
-    })
+    @Tag("REGRESSION")
     @DisplayName("Отправка веб-форма с заполеннными обязательными полями валидными значениями")
     public void onlyRequiredFieldsAreFilledInTest(){
         step("Заполнение и отправка веб-формы с валидными значениями", () -> {
