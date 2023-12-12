@@ -27,11 +27,7 @@ public class PracticeFormTest extends BaseTest {
         helpers.Attach.addVideo();
     }
     @Test
-    @Tags({
-            @Tag("SMOKE"),
-            @Tag("WEB"),
-            @Tag("REGRESSION")
-    })
+    @Tag("REGRESSION")
     @DisplayName("Отправка веб-форма со всеми полями заполеннными валидными значениями")
     @Description("Автотест")
     @Link("https://qa.ru")
