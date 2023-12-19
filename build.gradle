@@ -35,6 +35,7 @@ dependencies {
 }
 
 tasks.withType(Test) {
+    systemProperties(System.getProperties());
     useJUnitPlatform()
 
     testLogging {
@@ -60,5 +61,11 @@ task regression_test(type: Test) {
 task web_test(type: Test) {
     useJUnitPlatform {
         includeTags("WEB")
+    }
+}
+
+task property_browser(type: Test) {
+    useJUnitPlatform {
+        includeTags("property")
     }
 }
