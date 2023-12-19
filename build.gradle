@@ -45,19 +45,19 @@ tasks.withType(Test) {
     }
 }
 
-task demoqa_smoke_test(type: Test) {
+task smoke_test(type: Test) {
     useJUnitPlatform {
         includeTags("SMOKE")
     }
 }
 
-task demoqa_regression_test(type: Test) {
+task regression_test(type: Test) {
     useJUnitPlatform {
         includeTags("REGRESSION")
     }
 }
 
-task demoqa_web_test(type: Test) {
+task web_test(type: Test) {
     useJUnitPlatform {
         includeTags("WEB")
     }
