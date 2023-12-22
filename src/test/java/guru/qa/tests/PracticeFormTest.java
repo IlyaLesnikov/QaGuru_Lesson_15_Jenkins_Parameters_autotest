@@ -74,7 +74,7 @@ public class PracticeFormTest extends BaseTest {
         });
     }
     @Test
-    @Tag("WEB")
+    @Tag("REGRESSION")
     @DisplayName("Отправка веб-формы с одним не заполненным обязательным полем")
     public void oneIsNotFilledInNecessarilyTest() {
         step("Заполнение и отправка веб-формы с валидными значениями", () -> {
