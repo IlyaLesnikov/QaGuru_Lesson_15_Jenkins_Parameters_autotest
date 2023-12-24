@@ -21,7 +21,7 @@ public class TestData {
     public String subjects = faker.options().option("English", "Chemistry", "Computer Science",
             "Commerce", "Economics", "Social Studies", "Arts", "History", "Maths", "Accounting", "Physics",
             "Biology", "Hindi", "Civics");
-    public String hobbies = faker.options().option("Sports", "Reading", "Other");
+    public String hobbies = faker.options().option("Sports", "Reading", "Music");
     public String picture = faker.options().option("Photo.jpg", "Photo2.jpg", "Photo3.jpg");
     public String currentAddress = faker.address().fullAddress();
     public String state = faker.options().option("NCR", "Uttar Pradesh", "Haryana", "Rajasthan");
