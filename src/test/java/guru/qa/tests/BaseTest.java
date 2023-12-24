@@ -10,7 +10,7 @@ abstract public class BaseTest {
     @BeforeAll
     public static void setUp() {
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
-        Configuration.browser = System.getProperty("browser", "Chrome");
+        Configuration.browser = System.getProperty("browser", "chrome");
         //Configuration.browserVersion = System.getProperty("", "");
         Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
         Configuration.baseUrl = "https://demoqa.com";
